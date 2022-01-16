@@ -23,7 +23,7 @@ class ViewController: UIViewController {
             let dateString = dateFormater.string(from: theDate)
             displayLabel.text = dateString
         }else{
-            displayLabel.text = ""
+            displayLabel.text = "尚未輸入日期"
         }
     }
 
